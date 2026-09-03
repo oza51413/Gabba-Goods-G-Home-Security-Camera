@@ -17,7 +17,8 @@ IoT Hacking Writeup on a cheap home security camera. I'll walk you through recon
   1. Extract Firmware    
   2. Root/Debug shell to inspect the filesystem     
   3. Understand the authentication protocol between the device and the app    
-  4. Uncover any secrets(unique keys, passwords in flash)    
+  4. Uncover any secrets(unique keys, passwords in flash)
+  5. Patch/Rewrite the firmware to create a backdoor     
 
 ## Opening the Case and ID'ing chips/components  
 
