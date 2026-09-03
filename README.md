@@ -2,7 +2,7 @@
 IoT Hacking Writeup on a cheap home security camera. I'll walk you through recon, signal analysis/interposition, dumping firmware, and reverse engineering.
 
 
-![Setup](IMG_1594.jpeg)
+![Camera](camera.png)
 
 
 # 1. Recon  
@@ -54,6 +54,14 @@ IoT Hacking Writeup on a cheap home security camera. I'll walk you through recon
 
 
 ## Dumping SPI NOR Flash Memory  
+
+![EEPROM](IMG_1665.jpeg)
+
+![flashrom](SPIFLASH.png)
+
+![stringscmd](stringsPoC.png)
+
+![rooting](greproot.png)
 
 
 
